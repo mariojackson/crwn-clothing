@@ -6,12 +6,6 @@ import ShopPage from './pages/shop/shop.component';
 
 import './App.css';
 
-const HatsPage = () => (
-  <div>
-    <h1>Hats Page</h1>
-  </div>
-);
-
 function App() {
   return (
     <div>
