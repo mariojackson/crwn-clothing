@@ -1,3 +1,6 @@
+$google-blue: #4285f4;
+$google-blue-dark: #357ae8;
+
 .custom-button {
   min-width: 165px;
   width: auto;
@@ -11,12 +14,22 @@
   text-transform: uppercase;
   font-family: 'Open Sans Condensed';
   font-weight: bolder;
-  border: none;
+  border: 1px solid transparent;
   cursor: pointer;
 
   &:hover {
     background-color: white;
     color: black;
     border: 1px solid black;
+  }
+
+  &.google-sign-in {
+    background-color: $google-blue;
+    color: white;
+
+    &:hover {
+      background-color: $google-blue-dark;
+      border: 1px solid transparent;
+    }
   }
 }
